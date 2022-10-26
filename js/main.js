@@ -30,3 +30,8 @@ const tuttoInsieme = document.getElementById("tutto-insieme");
 
 tuttoInsieme.innerHTML=`${fullName}${color}21`
 
+const full = fullName + color
+
+let userFull = document.getElementById("full");
+
+userFull.innerHTML = full
